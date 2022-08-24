@@ -1,13 +1,87 @@
 body {
+  color: rgb(230, 230, 255);
+  background-color: rgb(25, 25, 25);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/* ////////////////////////////////////////////// */
+
+.navbar {
+  position: sticky;
+  background-color: rgb(25, 101, 230);
+}
+
+.intro {
+  padding: 144px 0;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intro div {
+  margin: 0 89px;
+}
+
+section {
+  border-bottom: 1px solid rgb(25, 101, 230);
+  padding: 89px 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.navbar {
+  position: sticky;
+}
+
+.servicecard {
+  padding: 21px;
+  border: 1px solid rgb(25, 25, 25);
+  margin: 21px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about div {
+  margin: 89px 0;
+}
+
+footer {
+  padding: 89px;
+  background-color: rgb(25, 25, 101);
+}
+
+footer h3 {
+  color: rgb(230, 230, 230);
+}
+
+#caseyface {
+  width: 233px;
+  border-radius: 50%;
+  box-shadow: 0 0 13px rgb(25, 25, 101);
+}
+
+#intrologo {
+  width: 144px;
+}
+
+.about div {
+  padding: 89px 21px;
+  background-color: rgba(25, 25, 25, 0.62);
 }
