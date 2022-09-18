@@ -68,19 +68,9 @@ function App() {
             <h3 className="display-3">Services</h3>
             <div className="services-container">
               <div className="servicecard">
-                <h3>Full House</h3>
-                <p>I will do blah blah blah...etc.</p>
-                <h4>$1,500</h4>
-              </div>
-              <div className="servicecard">
-                <h3>One Room</h3>
-                <p>I will do blah blah blah...etc.</p>
-                <h4>$500</h4>
-              </div>
-              <div className="servicecard">
-                <h3>Garden</h3>
-                <p>I will do blah blah blah...etc.</p>
-                <h4>$250</h4>
+                <h3>Call to Negotiate</h3>
+                <p>Prices are dependent on the job</p>
+                <h4>Thank you very much</h4>
               </div>
             </div>
           </section>
