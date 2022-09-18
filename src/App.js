@@ -81,8 +81,17 @@ function App() {
         <div className="container">
           <section className="contact">
             <div>
+              <h3 className="py-5">
+                {" "}
+                Contact me today and let's set up an appointment!
+              </h3>
               <h4>Email: caseycare87@gmail.com</h4>
               <h4>Phone: 1 (123)-456-7890</h4>
+            </div>
+            <div className="socials">
+              <a href="https://www.facebook.com/casey.cotter.3">
+                <h3>Facebok</h3>
+              </a>
             </div>
           </section>
         </div>
