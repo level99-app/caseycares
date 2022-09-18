@@ -74,7 +74,7 @@ footer h3 {
 #caseyface {
   width: 233px;
   border-radius: 50%;
-  box-shadow: 0 0 13px rgb(25, 25, 101);
+  box-shadow: 0 0 13px rgb(101, 101, 101);
 }
 
 #intrologo {
@@ -84,4 +84,14 @@ footer h3 {
 .about div {
   padding: 89px 21px;
   background-color: rgba(25, 25, 25, 0.62);
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    padding: 144px 0;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
