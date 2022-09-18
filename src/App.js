@@ -19,6 +19,7 @@ function App() {
           <section className="intro">
             <div>
               <img id="intrologo" src={logo} alt="Picture of Casey Cotter" />
+              <h5>Casey Cares Creations</h5>
               <h1 className="display-1">Casey Cotter</h1>
               <h3>Professional House Cleaner </h3>
               <p>
