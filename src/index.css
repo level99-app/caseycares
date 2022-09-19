@@ -1,6 +1,6 @@
 body {
-  color: rgb(230, 230, 255);
-  background-color: rgb(25, 25, 25);
+  color: rgb(25, 25, 25);
+  background-color: rgb(230, 230, 230);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -17,32 +17,40 @@ code {
 
 .navbar {
   position: sticky;
-  background-color: rgb(25, 101, 230);
+  background-color: rgb(230, 101, 40);
+  box-shadow: 0 3px 13px rgb(255, 126, 65);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
 }
 
 .intro {
-  padding: 144px 0;
-  padding-top: 55px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding: 21px 0;
+  padding-top: 89px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
 }
 
-.intro div {
-  margin: 0 89px;
+.intro-info {
+  width: 377px;
+  grid-column: 1fr 3fr;
 }
 
 section {
-  border-bottom: 1px solid rgb(25, 101, 230);
+  border-bottom: 13px dashed rgb(25, 25, 25);
   padding: 89px 0;
 }
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar {
-  position: sticky;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
 .servicecard {
@@ -64,7 +72,7 @@ a {
 
 footer {
   padding: 89px;
-  background-color: rgb(25, 25, 101);
+  background-color: rgb(40, 40, 40);
 }
 
 footer h3 {
@@ -72,9 +80,12 @@ footer h3 {
 }
 
 #caseyface {
-  width: 233px;
+  margin-top: 89px;
+  width: 300px;
   border-radius: 50%;
   box-shadow: 0 0 13px rgb(101, 101, 101);
+  margin-bottom: 55px;
+  padding: 5px;
 }
 
 #intrologo {
@@ -94,4 +105,38 @@ footer h3 {
     flex-direction: column;
     justify-content: space-between;
   }
+}
+
+p {
+  color: rgb(255, 200, 200);
+}
+
+h3 {
+  color: rgb(255, 160, 160);
+}
+
+.btn-slide {
+  margin: 34px 0;
+  background: rgb(25, 25, 25);
+  cursor: pointer;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid rgb(230, 63, 0);
+  border-radius: 3px;
+  padding: 13px 34px;
+  box-shadow: inset 0 0 0 0 rgb(230, 63, 0);
+  -webkit-transition: ease-out 0.38s;
+  -moz-transition: ease-out 0.38s;
+  transition: ease-out 0.38s;
+}
+.btn-slide:hover {
+  color: rgb(25, 25, 25);
+  box-shadow: inset 233px 0 0 0 rgb(101, 230, 0);
+  border: 2px solid rgb(101, 230, 0);
+}
+
+span {
+  color: rgb(255, 255, 255);
+  font-size: 21px;
 }
