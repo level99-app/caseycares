@@ -10,7 +10,7 @@ import grass from "./assets/grass.png";
 import bgbg from "./assets/bgbg.png";
 import logo from "./assets/logo.png";
 import bgbg2 from "./assets/bgbg2.png";
-import bottle from "./assets/spray-bottle.png";
+import irish from "./assets/irish.jpg";
 import cleaning from "./assets/cleaning.jpg";
 function App() {
   return (
@@ -23,19 +23,21 @@ function App() {
               <img id="intrologo" src={logo} alt="Picture of Casey Cotter" />
               <h5>Casey Cares Creations</h5>
               <h1 className="display-1">Casey Cotter</h1>
-              <h3 className="text-light">Professional House Cleaner </h3>
-              <p>
+              <h3 className="text-light" id="darken">
+                Professional House Cleaner{" "}
+              </h3>
+              <p className="text-dark">
                 Energetic, Passionate and Friendly House Cleaner from New Paltz,
                 NY with over 7 years of experience.{" "}
-                <span>Cleaning for the hudson valley area.</span> I enjoy
-                working in a relaxed and friendly environment and I'm motivated
-                by humanitarian work and enjoy working on people-centered
-                problems.{" "}
+                <span id="darken">Cleaning for the Hudson Valley area.</span>I
+                enjoy working in a relaxed and friendly environment and I'm
+                motivated by humanitarian work and enjoy working on
+                people-centered problems.{" "}
               </p>
             </div>
             <div>
               <img id="caseyface" src={casey} alt="Picture of Casey Cotter" />
-              <h3 className="text-dark"> - Casey Cotter</h3>
+              <h3 className="text-dark darken"> - Casey Cotter</h3>
               <p className="text-dark">
                 "Hi there, I'm Casey Cotter from New Paltz, NY. I'm passionate
                 about helping others improve their life quality. I hope I can be
