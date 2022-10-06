@@ -1,13 +1,18 @@
 import React from "react";
 import { Link } from "react-scroll";
+import logo from "../assets/logo.png";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark ">
+    <nav className="navbar navbar-expand-md navbar-light ">
       <div className="container">
         <Link activeClass="active" to="intro" spy={true} smooth={true}>
           <div className="navbar-brand">
-            <h4>Casey Cares</h4>
+            <div
+              className="logo"
+              style={{ backgroundImage: `url('${logo}')` }}
+            ></div>
+            <h3>Casey Cares</h3>
           </div>
         </Link>
         <button
