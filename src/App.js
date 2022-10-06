@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import casey from "./assets/casey.jpg";
+import casey from "./assets/casey2.jpg";
 import Footer from "./components/Footer";
 import { Parallax } from "react-parallax";
 import bg1 from "./assets/background_14.png";
@@ -28,9 +28,9 @@ function App() {
                 src={logo}
                 alt="Picture of Casey Cotter"
               />
-              <h5>Casey Cares Creations</h5>
-              <h1 className="display-3 text-info">Casey Cotter</h1>
-              <h3 className="text-light" id="darken">
+              <h5 className="text-muted">Casey Cares Creations</h5>
+              <h1 className="display-3 text-pink">Casey Cotter</h1>
+              <h3 className="text-warning" id="darken">
                 Professional House Cleaner{" "}
               </h3>
               <p className="text-dark">

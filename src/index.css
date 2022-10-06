@@ -17,8 +17,8 @@ code {
 
 .navbar {
   position: sticky;
-  background: rgba(230, 73, 74, 0.92);
-  box-shadow: 0 3px 13px rgb(230, 73, 74);
+  background: rgba(74, 25, 230, 0.92);
+  box-shadow: 0 3px 13px rgba(74, 25, 230, 0.92);
 }
 
 h1 {

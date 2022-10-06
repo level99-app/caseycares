@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light ">
+    <nav className="navbar navbar-expand-md navbar-dark ">
       <div className="container">
         <Link activeClass="active" to="intro" spy={true} smooth={true}>
           <div className="navbar-brand">
