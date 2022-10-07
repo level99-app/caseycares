@@ -17,8 +17,8 @@ code {
 
 .navbar {
   position: sticky;
-  background: rgba(74, 25, 230, 0.92);
-  box-shadow: 0 3px 13px rgba(74, 25, 230, 0.92);
+  background: rgba(230, 74, 25, 0.92);
+  box-shadow: 0 3px 13px rgba(25, 25, 25, 0.92);
 }
 
 h1 {
@@ -110,6 +110,10 @@ a {
 
 .contact {
   background: rgba(40, 40, 40, 0.62);
+}
+
+.contact h3 {
+  text-decoration: underline;
 }
 
 .about div {

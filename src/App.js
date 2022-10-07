@@ -45,9 +45,8 @@ function App() {
               <img id="caseyface" src={casey} alt="Picture of Casey Cotter" />
               <h3 className="text-warning darken"> - Casey Cotter</h3>
               <p className="text-light caseyquote">
-                "Hi there, I'm Casey Cotter from New Paltz, NY. I'm passionate
-                about helping others improve their life quality. I hope I can be
-                of help to you as well!"
+                "Hi There, and Thank You for Visiting My Site. I'm Casey Cotter
+                owner of Casey Cares Creations. And I welcome you aboard!"
               </p>
             </div>
           </section>
