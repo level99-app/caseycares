@@ -60,8 +60,7 @@ function App() {
             <div>
               <h3>House Cleaning</h3>
               <p>
-                I have extensive experience cleaning houses.
-                <br />
+                I have extensive experience cleaning houses. <br />
                 <br />
                 let me know if you need someone to clean your house! ;)
                 <br />
