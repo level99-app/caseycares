@@ -8,9 +8,9 @@ import bg3 from "./assets/background_5.jpg";
 import grass from "./assets/grass.png";
 import bgbg from "./assets/bgbg.png";
 import logo from "./assets/logo.png";
-import bgbg2 from "./assets/bg.png";
+import bgbg2 from "./assets/bgcasey4.png";
 import irish from "./assets/irish.jpg";
-import cleaning from "./assets/cleaning.jpg";
+import cleaning from "./assets/General-Cleaning.jpg";
 import painting from "./assets/painting.jpg";
 import bg2 from "./assets/bg2.jpg";
 
@@ -28,42 +28,55 @@ function App() {
                 src={logo}
                 alt="Picture of Casey Cotter"
               />
-              <h5 className="text-muted">Casey Cares Creations</h5>
+              <h5 className="text-light">Casey Creations Inc.</h5>
               <h1 className="display-3 text-pink">Casey Cotter</h1>
-              <h3 className="text-warning" id="darken">
-                Professional House Cleaner{" "}
-              </h3>
-              <p className="text-dark">
-                Energetic, Passionate and Friendly House Cleaner from New Paltz,
-                NY with over 7 years of experience.{" "}
-                <span id="darken">Cleaning for the Hudson Valley area.</span>I
-                also do body and face painting. And I have worked in clubs and
-                childrens events.
-              </p>
+              <div>
+                <h3 className="text-warning" id="darken">
+                  Professional Cleaner{" "}
+                </h3>
+                <p className="text-light">
+                  Energetic and Friendly House Cleaner from New Paltz, NY, with
+                  over 7 years of cleaning experience. I'm also proficient in
+                  body and face painting. And I also have extensive experience
+                  working in clubs and children's events.
+                </p>
+              </div>
             </div>
-            <div>
+            <div className="intro-right">
               <img id="caseyface" src={casey} alt="Picture of Casey Cotter" />
               <h3 className="text-warning darken"> - Casey Cotter</h3>
               <p className="text-light caseyquote">
-                "Hi There, and Thank You for Visiting My Site. I'm Casey Cotter
-                owner of Casey Cares Creations. And I welcome you aboard!"
+                "Hi There, I'm Casey Cotter owner of Casey Creations Inc. I
+                Welcome you to my website!"
               </p>
             </div>
           </section>
         </div>
       </Parallax>
-      <Parallax strength={-300} bgImage={bg2}>
+      <Parallax strength={-300}>
         <div className="container">
           <section className="about">
-            <h3 className="display-3 text-dark">About Me</h3>
+            <h3 className="display-3 text-warning">My services</h3>
             <div>
-              <h3>My Hobbies</h3>
+              <h3>House Cleaning</h3>
               <p>
-                I enjoy hiking, exploring new places, hanging out with friends
-                and family. And I do face and body paintings!
+                I have extensive experience cleaning houses.
                 <br />
                 <br />
-                let me know if I can be of help ;)
+                let me know if you need someone to clean your house! ;)
+                <br />
+                <br />
+                <img src={cleaning} />
+              </p>
+            </div>
+
+            <div>
+              <h3>Face and Body Painting</h3>
+              <p>
+                I'm good at doing great face and body paintings!
+                <br />
+                <br />
+                let me know if you need someone to paint you out! ;)
                 <br />
                 <br />
                 <img src={painting} />
@@ -72,11 +85,14 @@ function App() {
             <div>
               <h3>...About Me...</h3>
               <p>
-                Travelling is something I'm passionate about and I have visited
-                numerous countries around the world.
                 <br />
-                I'm an aspiring writer. I like to write a lot and I hope that
-                one day in the near future to sell my own book.
+                <br />
+                Travelling is something I'm very passionate about and I've been
+                to many countries around the world.
+                <br />
+                <br />
+                I'm an aspiring writer. I like to write a lot and I hope one day
+                in the near future to sell my own book.
               </p>
             </div>
           </section>
