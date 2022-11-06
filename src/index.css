@@ -114,8 +114,17 @@ a {
 
 .servicecard {
   padding: 21px;
+  background: rgba(15, 15, 15, 0.86);
   border: 1px solid rgb(230, 230, 230);
   margin: 21px;
+  box-shadow: 0 8px 13px rgb(15, 15, 15);
+  border-image: linear-gradient(
+      34deg,
+      rgb(240, 101, 160),
+      rgb(240, 25, 25),
+      rgb(240, 101, 160)
+    )
+    5;
 }
 
 .services-container {

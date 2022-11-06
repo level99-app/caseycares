@@ -12,7 +12,7 @@ const NavBar = () => {
               className="logo"
               style={{ backgroundImage: `url('${logo}')` }}
             ></div>
-            <h3>Casey Cares</h3>
+            <h3>Casey Creations</h3>
           </div>
         </Link>
         <button

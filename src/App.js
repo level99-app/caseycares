@@ -29,7 +29,7 @@ function App() {
                 alt="Picture of Casey Cotter"
               />
               <h5 className="text-light">Casey Creations Inc.</h5>
-              <h1 className="display-3 text-pink">Casey Cotter</h1>
+              <h1 className="display-3 mb-4 text-pink">Casey Cotter</h1>
               <div>
                 <h3 className="text-warning" id="darken">
                   Professional Cleaner{" "}
@@ -70,7 +70,7 @@ function App() {
             </div>
 
             <div>
-              <h3>Face and Body Paintinggggggggggggggggg</h3>
+              <h3>Face and Body Painting</h3>
               <p>
                 I'm good at doing great face and body paintings!
                 <br />
@@ -100,12 +100,10 @@ function App() {
       <Parallax bgImage="grass">
         <div className="container">
           <section className="services">
-            <h3 className="display-3">Services</h3>
             <div className="services-container">
               <div className="servicecard">
-                <h3>Call to Negotiate</h3>
-                <p className="text-warning">Prices are dependent on the job</p>
-                <h4>Thank you very much</h4>
+                <h3>Prices dependent on job</h3>
+                <h3 className="text-warning">Call and Negotiate</h3>
               </div>
             </div>
           </section>
