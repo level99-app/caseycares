@@ -70,7 +70,7 @@ function App() {
             </div>
 
             <div>
-              <h3>Face and Body Painting</h3>
+              <h3>Face and Body Paintinggggggggggggggggg</h3>
               <p>
                 I'm good at doing great face and body paintings!
                 <br />
